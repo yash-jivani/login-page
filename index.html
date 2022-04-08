@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Login page</title>
+  </head>
+  <body class="bg-zinc-100">
+    <div class="h-screen flex flex-col justify-center items-center">
+        <h2 class="font-mono text-center my-6" >Login to your account</h2>
+
+      <div
+        class="card bg-white p-6 text-center shadow-lg mx-auto rounded-lg">
+        <label for="username" class="font-semibold my-2 block">Username</label>
+        <input
+          type="text"
+          class="border-2 rounded my-2 p-2 block mx-auto border-zinc-300 outline-none"
+          placeholder="Email"
+          id="username"
+        />
+        <label for="passwd" class="font-semibold my-2 block">Password</label>
+        <input
+          type="password"
+          class="border-2 p-2 my-2 rounded mx-auto block border-zinc-300 outline-none"
+          placeholder="Password"
+          id="passwd"
+        />
+        <div class="flex justify-between items-center">
+            <button class="bg-green-600 px-3 py-1 cursor-pointer transition my-3 hover:bg-green-700 text-white rounded">Login</button>
+            <span class="text-sm cursor-pointer hover:text-cyan-500 transition">Forgot password?</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
